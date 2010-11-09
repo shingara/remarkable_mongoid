@@ -17,7 +17,6 @@ begin
     gem.add_development_dependency 'ruby-debug'
     gem.add_development_dependency 'bson_ext'
     gem.add_development_dependency 'activesupport', '3.0.1'
-    gem.add_development_dependency 'mongoid', '2.0.0.beta.19'
     gem.add_development_dependency 'rspec', '2.0.0'
     gem.add_development_dependency 'bourne', '1.0'
   end

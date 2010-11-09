@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Brian Cardarella"]
-  s.date = %q{2010-10-15}
+  s.date = %q{2010-11-08}
   s.description = %q{RSpec Matchers for Mongoid}
   s.email = %q{bcardarella@gmail.com}
   s.extra_rdoc_files = [
@@ -40,7 +40,6 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<ruby-debug>, [">= 0"])
       s.add_development_dependency(%q<bson_ext>, [">= 0"])
       s.add_development_dependency(%q<activesupport>, ["= 3.0.1"])
-      s.add_development_dependency(%q<mongoid>, ["= 2.0.0.beta.19"])
       s.add_development_dependency(%q<rspec>, ["= 2.0.0"])
       s.add_development_dependency(%q<bourne>, ["= 1.0"])
     else
@@ -48,7 +47,6 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<ruby-debug>, [">= 0"])
       s.add_dependency(%q<bson_ext>, [">= 0"])
       s.add_dependency(%q<activesupport>, ["= 3.0.1"])
-      s.add_dependency(%q<mongoid>, ["= 2.0.0.beta.19"])
       s.add_dependency(%q<rspec>, ["= 2.0.0"])
       s.add_dependency(%q<bourne>, ["= 1.0"])
     end
@@ -57,7 +55,6 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<ruby-debug>, [">= 0"])
     s.add_dependency(%q<bson_ext>, [">= 0"])
     s.add_dependency(%q<activesupport>, ["= 3.0.1"])
-    s.add_dependency(%q<mongoid>, ["= 2.0.0.beta.19"])
     s.add_dependency(%q<rspec>, ["= 2.0.0"])
     s.add_dependency(%q<bourne>, ["= 1.0"])
   end

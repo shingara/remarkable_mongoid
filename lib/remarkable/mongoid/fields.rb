@@ -9,7 +9,7 @@ module Remarkable::Mongoid
 
       def initialize(field, options)
         self.field   = field.to_s
-        self.options = { :type => String }.merge(options)
+        self.options = { :type => Object }.merge(options)
       end
 
       def matches?(subject)
